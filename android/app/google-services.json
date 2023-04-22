@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "722087887670",
+    "project_id": "postvibs-d96e6",
+    "storage_bucket": "postvibs-d96e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722087887670:android:54f7fc31f26c7819462997",
+        "android_client_info": {
+          "package_name": "com.example.postvibs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722087887670-0mlud9rv0ftshrg1ou38jjmvue1dd5a0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.postvibs",
+            "certificate_hash": "d0f666ec871a4296708f65e4e49ad90480bbf453"
+          }
+        },
+        {
+          "client_id": "722087887670-62if8pbfg919fhp42hcpfb74p9g69cn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxvHu6HAoTANCPqQtsqDVjjqUZF-Y4DBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722087887670-62if8pbfg919fhp42hcpfb74p9g69cn1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

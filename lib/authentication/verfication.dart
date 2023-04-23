@@ -28,23 +28,10 @@ class _MyVerifyState extends State<MyVerify> {
       width: 56,
       height: 56,
       textStyle: const TextStyle(
-          fontSize: 20,
-          color: Color.fromRGBO(30, 60, 87, 1),
-          fontWeight: FontWeight.w600),
+          fontSize: 20, color: Colors.white, fontWeight: FontWeight.w600),
       decoration: BoxDecoration(
         border: Border.all(color: const Color.fromRGBO(234, 239, 243, 1)),
         borderRadius: BorderRadius.circular(20),
-      ),
-    );
-
-    final focusedPinTheme = defaultPinTheme.copyDecorationWith(
-      border: Border.all(color: const Color.fromRGBO(114, 178, 238, 1)),
-      borderRadius: BorderRadius.circular(8),
-    );
-
-    final submittedPinTheme = defaultPinTheme.copyWith(
-      decoration: defaultPinTheme.decoration?.copyWith(
-        color: const Color.fromRGBO(234, 239, 243, 1),
       ),
     );
 
@@ -100,6 +87,7 @@ class _MyVerifyState extends State<MyVerify> {
                 keyboardType: TextInputType.phone,
                 showCursor: true,
                 onCompleted: (pin) => print(pin),
+                defaultPinTheme: defaultPinTheme,
                 onChanged: (value) {
                   _smsCode = value;
                 },

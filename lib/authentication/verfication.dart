@@ -57,26 +57,27 @@ class _MyVerifyState extends State<MyVerify> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset(
-                'asset/img1.jpg',
-                width: 150,
-                height: 150,
-              ),
+              // Image.asset(
+              //   'asset/img1.jpg',
+              //   width: 150,
+              //   height: 150,
+              // ),
               const SizedBox(
                 height: 25,
               ),
               const Text(
                 "Phone Verification",
-                style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+                style: TextStyle(
+                    fontSize: 22,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.grey),
               ),
               const SizedBox(
                 height: 10,
               ),
               const Text(
                 "We need to register your phone without getting started!",
-                style: TextStyle(
-                  fontSize: 16,
-                ),
+                style: TextStyle(fontSize: 16, color: Colors.grey),
                 textAlign: TextAlign.center,
               ),
               const SizedBox(
@@ -100,7 +101,7 @@ class _MyVerifyState extends State<MyVerify> {
                 height: 45,
                 child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                        primary: Colors.green.shade600,
+                        primary: Colors.blue,
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(10))),
                     onPressed: () async {

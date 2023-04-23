@@ -52,7 +52,7 @@ class _SearchListState extends State<SearchList> {
               color: Colors.white,
               fontSize: 16.0,
             ),
-            decoration: InputDecoration(
+            decoration: const InputDecoration(
               hintText: 'Search Videos',
               hintStyle: const TextStyle(
                 color: Colors.white,
